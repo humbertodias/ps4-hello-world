@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Open Orbis Toolchain
-        uses: OpenOrbis/toolchain-action@v0.5.3
+        uses: Al-Azi/toolchain-action@main
         with:
           version: latest
           command: cd hello_world; make; PkgTool.Core pkg_build pkg/pkg.gp4 .
